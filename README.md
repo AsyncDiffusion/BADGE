@@ -8,7 +8,7 @@ Official Implementation of the **Biased to Balanced: Adaptive Guidance for Fair 
 
 ## Installation
 
-```cmd
+```bash
 pip install -r requirements.txt
 ```
 
@@ -23,7 +23,7 @@ Flags:
 
 
 For instance, to reproduce the experiments, run
-```
+```bash
 cd generative
 python main.py --cls doctor --lam 500
 ```
@@ -65,7 +65,7 @@ Flags:
 
 
 For instance, to reproduce the experiments, run
-```
+```bash
 cd discriminative
 python main.py --dataset waterbirds --load_base_model clip_RN50 --debias
 ```
