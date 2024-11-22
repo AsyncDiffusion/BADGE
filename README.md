@@ -70,8 +70,3 @@ cd discriminative
 python main.py --dataset waterbirds --load_base_model clip_RN50 --debias
 ```
 
-## Acknowledgements
-The code is primarily inspired by the HuggingFace [example](https://github.com/huggingface/diffusers/tree/main/examples) and is based on [vl_debias](https://github.com/chingyaoc/debias_vl) and [semantic-image-editing](https://github.com/ml-research/semantic-image-editing). 
-
-We extend our heartfelt gratitude to the authors of these projects for their outstanding contributions, which greatly facilitated our work.
-
