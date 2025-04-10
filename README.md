@@ -5,7 +5,7 @@ Official Implementation of the **Bimodal Debiasing for Text-to-Image Diffusion: 
 ![example images](docs/images/intersection.jpg)
 
 > Social biases in diffusion-based text-to-image models have drawn increasing attention. Yet, existing debiasing efforts often focus solely on either the **textual** space (e.g., CLIP) or the **visual** space (e.g., U-Net). This **unimodal perspective** introduces two major challenges:
-
+>
 > 1. **Debiasing only the textual space** fails to control visual outputs, often leading to *pseudo-* or *over-corrections* due to unaddressed visual biases during denoising.
 > 2. **Debiasing only the visual space** can cause *modality conflicts* when biases in textual and visual modalities are misaligned, degrading the quality and consistency of the generated images.
 >
