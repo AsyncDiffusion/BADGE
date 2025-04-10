@@ -4,7 +4,19 @@ Official Implementation of the **Bimodal Debiasing for Text-to-Image Diffusion: 
 
 ![example images](docs/images/intersection.jpg)
 
-> Social biases in diffusion-based text-to-image models have sparked significant research into effective debiasing methods. Unfortunately, existing efforts either consider bias only from language (i.e., CLIP) or visual space (i.e., U-Net): (1) Debiasing only language space faces the issue of fair text condition fails to control visual space. Even when text conditions are uniformly distributed across attributes, the synthesized images can still display pseudo or over-correction, which points to potential biases within the visual space during the denoising process. (2) While only debiasing the visual space can arise where the biases inclination in the language and visual space are misaligned, leading to conflicts during the guidance process that can degrade the quality of synthesized images. As a response to above issues, we propose Biased to Balanced: Adaptive Guidance (BBA) that manipulates bias in language and visual (bimodal) spaces. To realize this, we first locate and quantify biases degree towards various attributes within bimodal space; then, during inference, BBA apply adaptive guidance in bimodal spaces based on the detected bias. BBA presents a self-debiasing framework that avoids extra training costs and corpora. Experiments demonstrate that BBA significantly improves the fairness in various intra- and inter-categories biases (e.g., gender, skin tone, age) while achieving considerable image fidelity.
+> Social biases in diffusion-based text-to-image models have drawn increasing attention. Yet, existing debiasing efforts often focus solely on either the **textual** space (e.g., CLIP) or the **visual** space (e.g., U-Net). This **unimodal perspective** introduces two major challenges:
+
+> 1. **Debiasing only the textual space** fails to control visual outputs, often leading to *pseudo-* or *over-corrections* due to unaddressed visual biases during denoising.
+> 2. **Debiasing only the visual space** can cause *modality conflicts* when biases in textual and visual modalities are misaligned, degrading the quality and consistency of the generated images.
+>
+> To address these issues, we propose **BADGE** (*Bimodal ADaptive Guidance DEbiasing* within Textual and Visual Spaces). BADGE consists of two key components:
+>
+> - It first **quantifies attribute-level bias inclination** in both modalities, providing precise guidance for subsequent mitigation.
+> - Then, to avoid pseudo- or over-correction and modality conflicts, the **quantified bias degree** is used as the **debiasing strength** for adaptive guidance, enabling fine-grained correction tailored to discrete attribute concepts.
+>
+> BADGE is a **self-debiasing** method that requires **no additional training** or external corpora.
+>
+> Extensive experiments demonstrate that BADGE significantly enhances **fairness** across intra- and inter-category attributes (e.g., gender, skin tone, age, and their interaction) while preserving **high image fidelity**.
 
 ## Installation
 
