@@ -1,6 +1,6 @@
-# Biased to Balanced: Adaptive Guidance for Fair Text-to-Image Generation in Language and Visual Spaces
+# Bimodal Debiasing for Text-to-Image Diffusion: Adaptive Guidance in Textual and Visual Spaces
 
-Official Implementation of the **Biased to Balanced: Adaptive Guidance for Fair Text-to-Image Generation in Language and Visual Spaces**. 
+Official Implementation of the **Bimodal Debiasing for Text-to-Image Diffusion: Adaptive Guidance in Textual and Visual Spaces**. 
 
 ![example images](docs/images/intersection.jpg)
 
