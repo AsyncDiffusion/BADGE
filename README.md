@@ -18,6 +18,8 @@ Official Implementation of the **Bimodal Debiasing for Text-to-Image Diffusion: 
 >
 > Extensive experiments demonstrate that BADGE significantly enhances **fairness** across intra- and inter-category attributes (e.g., gender, skin tone, age, and their interaction) while preserving **high image fidelity**.
 
+![controlnet images](docs/images/controlnet.jpg)
+
 ## Installation
 
 ```bash
