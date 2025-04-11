@@ -28,8 +28,6 @@ Official Implementation of the **Bimodal Debiasing for Text-to-Image Diffusion: 
 
 ![more teacher images](docs/images/figure1-teacher.png)
 
-![more teacher images](docs/images/figure1-teacher.png)
-
 ![more firefigher images](docs/images/firefighter_figure1.png)
 
 ## Installation
