@@ -20,6 +20,8 @@ Official Implementation of the **Bimodal Debiasing for Text-to-Image Diffusion: 
 
 ![controlnet images](docs/images/controlnet.jpg)
 
+![more images](docs/images/figure1-2.png)
+
 ## Installation
 
 ```bash
