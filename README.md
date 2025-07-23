@@ -94,3 +94,5 @@ cd discriminative
 python main.py --dataset waterbirds --load_base_model clip_RN50 --debias
 ```
 
+# Acknowledge
+Codes are based on [debias_vl](https://github.com/chingyaoc/debias_vl) and [huggingface examples](https://github.com/huggingface/diffusers/tree/main/examples).
